@@ -19,7 +19,9 @@
             @current-change="handleCurrentChange"
             current-page="5"
             page-size="10"
-            layout="total, prev, pager, next, jumper"
+            layout="total, prev, pager, next, jumper,sizes"
+            :page-sizes="[10,50,100,200 ]"
+            :page-size="10"
             :total="305">
     </el-pagination>
 </div>
