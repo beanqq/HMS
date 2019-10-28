@@ -213,6 +213,7 @@
                 <artifactId>spring-security-taglibs</artifactId>
                 <version>${spring.security.version}</version>
             </dependency>
+            <!--验证码-->
             <dependency>
                 <groupId>com.github.penggle</groupId>
                 <artifactId>kaptcha</artifactId>
